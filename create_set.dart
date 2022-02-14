@@ -23,12 +23,14 @@ class Create_sets extends StatefulWidget {
 }
 
 
-class _Create_sets extends State<Create_sets> {
+class updatestate extends State<Create_sets> {
   int sets = 1;
   int rest = 30;
   int setcount = 0;
   List reps = [0];
   List weight = [0];
+  int a;
+  String c;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
